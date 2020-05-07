@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>378</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	background-color: #263238;
+font-family: rubik;
+}
+QLineEdit{
+background: white;
+
+}
+
+QGroupBox{
+color: white;
+	background-color: #3E4551;
+
+
+}
+QLabel{
+		color: #8FBCBB;
+		background-color: #3E4551;
+}
+QPushButton{
+	color: white;
+	background-color: #8FBCBB;
+
+
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1" rowspan="2">
+     <widget class="QLabel" name="label_Inicio">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" rowspan="2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="pushButton_IniciarSesion">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>196</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton:hover{
+	
+	color: white;
+background-color: #5E81AC
+}</string>
+       </property>
+       <property name="text">
+        <string>  Iniciar Sesion  </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_imgUser">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>9</y>
+         <width>16</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Resgistro">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>240</y>
+         <width>181</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: #8FBCBB;
+	background-color: #3E4551;
+	border-radius:5px;
+
+
+}
+QPushButton:hover{
+	
+	color: white;
+background-color: #5E81AC
+}</string>
+       </property>
+       <property name="text">
+        <string>  ¿Nuevo aqui?  </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>40</y>
+         <width>101</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Inicia Sesión</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>270</y>
+         <width>181</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>   ¿Olvidaste tu contraseña?</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_Usuario">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>100</y>
+         <width>261</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Usuario</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_password">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>261</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Contraseña</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_Usuario</tabstop>
+  <tabstop>lineEdit_password</tabstop>
+  <tabstop>pushButton_IniciarSesion</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
